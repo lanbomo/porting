@@ -1,0 +1,31 @@
+{
+  "name": "porting",
+  "version": "1.0.0",
+  "description": "a port forwarding tool 端口转发工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "porting": "./bin/porting.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanbomo/porting.git"
+  },
+  "keywords": [
+    "port",
+    "forwarding",
+    "proxy",
+    "tool"
+  ],
+  "author": "lanbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanbomo/porting/issues"
+  },
+  "homepage": "https://github.com/lanbomo/porting#readme",
+  "dependencies": {
+    "commander": "6.1.0"
+  }
+}
